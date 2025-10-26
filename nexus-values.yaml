@@ -1,0 +1,9 @@
+# docker repository 
+nexus:
+  docker:
+    enabled: true
+    registries:
+      - host: docker-hosted.local
+        port: 8083
+      - host: docker-group.local
+        port: 8082
